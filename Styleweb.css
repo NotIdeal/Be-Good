@@ -1,0 +1,579 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+}
+section.heding1 {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+section.heding1 a.name {
+    color: inherit;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+section.pustoi{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section.heding2{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+section.heding2-1 {
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+a {
+    color: inherit;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+}
+
+img.korzina {
+    width: 30px;
+    height: auto;
+    display: flex;
+    flex-direction: left;
+}
+
+div.chip {
+    width: 100%;
+    height: 500px;
+    opacity: 1;
+    background-image: url("../img/tra2.gif");
+    background-size: cover;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: animation 80s linear;
+}
+@keyframes animation {
+    100%{
+     background-position:0px -3000px;
+   }
+ }
+pre.slogan{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: white;   
+    text-align: center;
+}
+
+section.tovar {
+    padding: 30px 0px;
+    margin: 0px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.tovarn1 {
+    margin: 5px;
+}
+
+img.tovar {
+    width: 250px;
+}
+
+img.tovar1 {
+    width: 300px;
+}
+
+
+div.tovarname {
+    text-align: center;
+}
+div.tovarname1 {
+    text-align: center;
+}
+
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    color: inherit;
+    font-weight: none;
+}
+
+div.cost {
+    width: 250px;
+    padding-bottom: 10px;
+}
+div.cost1 {
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+element.style {
+    color: grey;
+}
+
+span {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    margin: 5px;
+}
+
+div.catalog {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-color: rgb(250, 247, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3.Catalog {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 102, 227);
+    font-weight: 500;
+}
+
+h2.Catalog {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 0;
+}
+
+div.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+div.image1 {
+    width: 50%;
+    height: 460px;
+    background-image: url("../img/nat.jpg");
+    background-size: cover;
+}
+
+div.image2 {
+    width: 50%;
+    height: 460px;
+    background-image: url("../img/nat2.jpg");
+    background-size: cover;
+}
+
+div.info {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2.info {
+    color: rgb(0, 102, 227);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+p.info {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    text-decoration: none;
+}
+p.info1 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+p.info {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 35px;
+    text-decoration: none;
+}
+
+div.image3{
+    width: 100%;
+    height: auto;
+    background-image: url('image3.jpg') ;
+    background-size: contain;
+}
+
+div.Time{
+    width: 100%;
+    padding: 100px;
+    background-color: #FAF7F5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+p.Time{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 102, 227);
+}
+
+p.Time1{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 102, 227);
+}
+p.Date{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 102, 227);
+    line-height: 25px;
+}
+pre.Date{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 102, 227);
+    line-height: 25px;
+}
+
+div.Question{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 200px;
+    position: relative;
+    float: left;
+}
+
+div.Contacts{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    float: left;
+}
+
+div.Form{
+    position: static;
+    display: inline-block;
+    width: 50%;
+    padding: 80px 100px;
+    align-items: center;
+}
+
+input.name{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 40%;
+    height: 42px;
+    position: relative;
+    margin: 0px 0px 10px 0;
+    font-weight: bolder;
+}
+input.tema{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 80%;
+    height: 42px;
+    position: relative;
+    margin: 0px 0px 10px 0;
+    font-weight: bolder;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+}
+
+a.glav:hover{
+    background-color: black;
+    color: white;
+    transition: 1.30s;
+}
+
+textarea{
+    padding-left: 16px;
+    padding-right: 10px;
+    text-align: left;
+    font: normal normal normal 15px/1.875em 'montserrat',sans-serif;
+    resize: none;
+    padding: 3px;
+    height: 150px;
+    margin: 0;
+    padding-top: 0.75em;
+    width: 80%;
+    font-weight: bolder;
+    overflow-y: auto;
+    flex: 1;
+    text-transform: none;
+    display: inline-block;
+    flex-direction: column;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+}
+
+button.Send{
+    background-color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 80%;
+    height: 50px;
+    position: relative;
+    margin: 0px 0px 20px 0;
+    font-weight: bolder;
+}
+
+button.Send:hover{
+    opacity: 0.7;
+}
+
+div.footer{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img.instagram{
+    width: 40px;
+    height: auto;
+}
+
+div.otstup{
+        width: 100%;
+        height: 50px;
+}
+
+div.ss{
+    display: flex;
+    flex-direction: row;
+}
+
+nav.pustoi{
+    width: 40%;
+    height: 148px;
+}
+
+nav.navigation{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+a.navigation{
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 10px;
+    height:45px;
+}
+
+a.navigation:hover{
+    background-color: black;
+    transition: 1.30s;
+    color: white;
+}
+
+div.all{
+    display: flex;
+    flex-direction: row;
+}
+
+div.information{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+div.inform{
+    display: flex;
+    flex-direction: column;
+}
+
+div.foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    align-items: center;
+    background-size: left;
+}
+
+div.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+div.cost{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div.left{
+    padding: 0 80px 0 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+div.right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+div.definition{
+    width:100%;
+}
+
+p.definition{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3.otovare{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 15px;
+}
+
+nav.pustoi1{
+    width: 81%;
+}
+
+div.background{
+    width: 20%;
+    display: flex;
+    padding-left:100px;
+    padding-right: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img.moon{
+    width: 15px;
+}
+
+img.sun{
+    width: 30px;
+}
+
+img.sun,img.moon,p.language:hover{
+    cursor: pointer;
+}
+
+div.companyname{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img.flag{
+    width: 30px;
+}
+
+p.language{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+#inputc{
+    border: 1px solid black;
+    width: 80px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+#blinn{
+    color: white;
+    cursor: pointer;
+}
+
+#qwerty{
+    width: 120px;
+    height: 40px;
+    color: white
+}
+
+div.button{
+    padding: 20px;
+}
+
+div.magazin{
+    /*width: 100%;*/
+    display: flex;
+}
+nav.white{
+    width: 15%;
+}
