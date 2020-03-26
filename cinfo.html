@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Beigut Beisenkhan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Styleweb.css">
+   <title>Info & Contacts</title>
+    <style>
+ 
+    </style>
+</head>
+<body>
+    <header id="header">
+        <section class="heding1" id="heading">
+            <div class="background">
+                <img src="img/moonblack.png" id="moon" onclick="black()" class="moon" alt="">
+                <a href="cinfo.html"><img src="img/sunblack.png" id="sun" class="sun" alt=""></a>
+            </div>
+            <div class="companyname">
+            <a class="name" id="companyname" href="Main.html" target="_self"><spam style="font-size: 44px; text-shadow: 2px 2px 5px rgb(7, 153, 238); letter-spacing: 7px;">Be Good</spam> travel</a>
+            </div>
+            <div class="background">
+                <label for="RUS"><img src="img/rus.svg"  class="flag" alt=""></label>
+                <p style="padding-right: 10px;" id="RUS" class="language" onclick="RU()">RU</p> 
+                
+                <label for="EN"><img src="img/usa.webp" class="flag" alt=""></label>
+                <p class="language" id="ENG" onclick="EN()">EN</p>
+            </div>
+        </section>
+        <section class="heding2" id="heding2">
+            <section class="pustoi" id="pustoi"></section>
+            <section class="heding2-1" id="heding2-1">
+            <a class="glav" href="Main.html" id="glav1">Главная</a>
+            <a class="glav" href="store.html" id="glav2">Туры</a>
+            <a class="glav" href="#montacts" id="glav3">Контакты</a>
+            <a class="glav" href="#info" id="glav4">О нас</a>
+            </section>
+            <section class="pustoi" id="pustoi">
+            <a href="store.html" target="_self"><img class="korzina" id="korzina" src="img/buwak.png" alt="tours" title="Tours"></a>
+            </section>
+        </section>
+    </header>
+    <div id="lolol">
+        <div class="info" id="info" style="border-top: 2px solid black;">
+            <h2 class="info" id="h2info">"Be Good" travel</h2>
+            <p class="info" id="aim1">Цель нашего "Be Good travel" —  Создание максимум комфортного и познавательного отдыха именно для вас!</p>
+            <br>
+            <p class="info1" id="def1">Мы  предлагаем вам посетить любую точку мира, отдохнуть, развлечься и познакомиться с культурой других стран. И все это — за приемлемые цены и на самом высоком уровне обслуживания. К вашим услугам — лучшие курорты и исторические города, комфортабельные отели и уголки девственной природы. Мы готовы помочь вам осуществить мечту. Путешествие с «Be Good travel»  — это надежно, выгодно и удобно.</p>
+    
+        <p class="info">  <span id="prize1" style="font-weight: 800;"> Компания «Be Good travel» желает Вам удачного дня и хорошего настроения!</span id="prize1"></p>
+        </div>
+    </div>
+
+    <div class="Time" id="Time">
+        <p class="Time" id="pTime">Часы работы</p>
+        <p class="Time1" id="pTime1">Путешествуй!</p>
+        <pre class="Date" id="Date">ПН–ПТ: 9:00–18:00
+    СБ: 10:00–14:00
+    ВС: выходной</pre>
+    </div>
+
+    <div class="Questions" id="Questions"> 
+        <div class="Contacts" id="montacts">
+            <p class="Time" id="qwe">Контакты</p>
+            <p class="Date" id="meken">ул. Кабанбай батыр, 60/4, Нур-Султан, Казахстан, Земля</p>
+            <p  class="Date" id="email">contact@begoodtravel.kz</p>
+            <p  class="Date" id="telefon">+7-708-708-08-08</p>   
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5028.720228515281!2d71.41501099999026!3d51.089669384147314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424585ab591c3049%3A0xe189060ca71800c2!2sEXPO%202017%20Nur%20alemi%20pavilion!5e0!3m2!1skk!2skz!4v1584941322148!5m2!1skk!2skz" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                       
+            </div>
+        <div class="Form" id="foorr">  
+            <form method="POST" action="thanks.html">
+                <input class="name" type="text" id="inname"  style="padding-left: 20px;" value required placeholder="Имя" maxlength="100">
+                <input class="name" type="text" id="insurname" style="padding-left: 20px;" value required placeholder="Фамилия" maxlength="100">
+                <input class="name" type="number" id="innumber" style="padding-left: 20px;" value  placeholder="Возраст" maxlength="100">
+                <input class="name" type="text" id="inadress" style="padding-left: 20px;" value placeholder="Адрес" maxlength="100">
+                <input class="tema" type="text" id="intheme" style="padding-left: 20px;" value required placeholder="Тема" maxlength="100">
+                <textarea class="name" type="text" id="incomment" style="padding-left: 20px;" value required placeholder="Добавьте сообщение..." maxlength="1000"></textarea>
+                <button class="Send" id="blinn">Отправить</button>     
+            </form> 
+        </div>
+        
+    </div>
+    <div class="footer" id="fooot" style="margin-top: 33px; border-top: 2px solid black;">
+        <p style="text-align: center; color: blue">"Be Good" Travel<br>2020, Nur-Sultan<br>Buirtsa bari jaqsy bolady</p>
+        <br>
+        <a href="https://www.instagram.com/not_1deal/?hl=ru" target="_blank"> <img class="instagram" src="img/instagram.webp" alt="Instagram" title="Instagram"></a>
+        <a href="https://vk.com" target="_blank"> <img class="instagram" src="img/vk.png" alt="VK" title="VK"></a>
+        <a href="https://www.facebook.com/beisenkhan1" target="_blank"> <img class="instagram" src="img/face.png" alt="Facebook" title="Facebook"></a>
+    </div>
+    <script src="js/cinfo.js"></script>
+</body>
+</html>

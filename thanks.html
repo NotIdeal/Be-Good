@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Beigut Beisenkhan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Styleweb.css">
+   <title>Thanks</title>
+    <style>
+        .jasu{
+            border-top: 2px solid black; 
+            border-bottom: 2px solid black;
+            text-align: center;
+            padding-top: 44px;
+            padding-bottom: 55px;
+        }
+        #home{
+            width: 177px; 
+            height: 44px; 
+            font-size: 18px; 
+            border: 2px solid blue;
+            background-color: white;
+        }
+        #home:hover{
+            border: 3px solid blueviolet;
+            border-radius: 5%;
+        }
+        
+    </style>
+</head>
+<body onload="time()">
+    <header id="header">
+        <section class="heding1" id="heading">
+            <div class="background">
+                <img src="img/moonblack.png" id="moon" onclick="black()" class="moon" alt="">
+                <a href=""><img src="img/sunblack.png" id="sun" class="sun" alt=""></a>
+            </div>
+            <div class="companyname">
+            <a class="name" id="companyname" href="Main.html" target="_self"><spam style="font-size: 44px; text-shadow: 2px 2px 5px rgb(7, 153, 238); letter-spacing: 7px;">Be Good</spam> travel</a>
+            </div>
+            <div class="background">
+                <label for="RUS"><img src="img/rus.svg"  class="flag" alt=""></label>
+                <p style="padding-right: 10px;" id="RUS" class="language" onclick="RU()">RU</p> 
+                
+                <label for="EN"><img src="img/usa.webp" class="flag" alt=""></label>
+                <p class="language" id="ENG" onclick="EN()">EN</p>
+            </div>
+        </section>
+        <section class="heding2" id="heding2">
+            <section class="pustoi" id="pustoi"></section>
+            <section class="heding2-1" id="heding2-1">
+            <a class="glav" href="Main.html" id="glav1">Главная</a>
+            <a class="glav" href="store.html" id="glav2">Туры</a>
+            <a class="glav" href="cinfo.html#foorr" id="glav3">Контакты</a>
+            <a class="glav" href="cinfo.html#info" id="glav4">О нас</a>
+            </section>
+            <section class="pustoi" id="pustoi">
+            <a href="store.html" target="_self"><img class="korzina" id="korzina" src="img/buwak.png" alt="tours" title="My Tours"></a>
+            </section>
+        </section>
+    </header>
+    <div class="jasu" id="jasu">
+        <p id="text" style="color: blue; font-size: 33px;"></p>
+        <p id=text2 style="font-size: 20px;">Мы благодарим вас за ваш ответ и желаем вам всего наилучшего!</p>
+        <a href="Main.html"><button id="home">Главная</button></a>
+    </div>
+
+    <div class="footer" id="fooot" style="margin-top: 33px;">
+        <p id="btwt" style="text-align: center;">"Be Good" Travel<br>2020, Nur-Sultan<br>Buirtsa bari jaqsy bolady</p>
+        <br>
+        <a href="https://www.instagram.com/not_1deal/?hl=ru" target="_blank"> <img class="instagram" src="img/instagram.webp" alt="Instagram" title="Instagram"></a>
+        <a href="https://vk.com/" target="_blank"> <img class="instagram" src="img/vk.png" alt="VK" title="VK"></a>
+        <a href="https://www.facebook.com/beisenkhan1" target="_blank"> <img class="instagram" src="img/face.png" alt="Facebook" title="Facebook"></a>
+    </div>
+
+    <script src="js/thanks.js"></script>
+    </body>
+</html>
